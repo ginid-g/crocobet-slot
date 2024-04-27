@@ -1,0 +1,7 @@
+<div class="provider-container">
+    <ul>
+        <li *ngFor="let item of data" (click)="selectProvider(item.provider)">
+            {{item.name}}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+.provider-container {
+    background-color: #272D36;
+    margin-top: -14px;
+
+    ul {
+        list-style: none;
+        padding: 1rem;
+        display: flex;
+        color: #ffffff;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        li {
+
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
+}

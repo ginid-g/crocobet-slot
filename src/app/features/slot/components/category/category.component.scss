@@ -1,0 +1,17 @@
+.category-container {
+    background-color: #1D242C;
+
+    ul {
+        list-style: none;
+        padding: 1rem;
+        display: flex;
+        color: #ffffff;
+        font-size: 14px;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        li {
+            cursor: pointer;
+        }
+    }
+}

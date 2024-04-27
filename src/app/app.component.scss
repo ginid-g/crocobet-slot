@@ -1,0 +1,25 @@
+.app-container {
+    display: flex;
+    min-height: 100vh;
+
+    aside {
+        background: #2A3139;
+        width: 77px;
+    }
+
+    .content {
+        width: 100%;
+        background-color: #1A1E23;
+
+        header {
+            height: 60px;
+            background: #252B33;
+        }
+
+        main {
+            width: 100%;
+            padding: 0.5rem;
+            box-sizing: border-box;
+        }
+    }
+}

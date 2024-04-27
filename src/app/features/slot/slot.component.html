@@ -1,0 +1,4 @@
+<app-banner [imgUrl]="'assets/images/banner.png'"></app-banner>
+<app-category [data]="(slotCategories$| async)" (onCategorySelect)="onCategorySelect($event)"></app-category>
+<app-provider [data]="(providers$| async)" (onProviderSelect)="onProviderSelect($event)"></app-provider>
+<app-game [games]="games()"></app-game>
